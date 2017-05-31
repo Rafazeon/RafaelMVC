@@ -1,0 +1,20 @@
+{
+    "name": "rafael/coursemvc",
+    "description": "Curso de MVC",
+    "require": {
+        "phpunit/phpunit": "6.1.*@stable",
+        "silex/silex" : "~2.0"
+    },
+    "authors": [
+        {
+            "name": "Rafael Caldeira",
+            "email": "rafazeon@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload":{
+        "psr-4": {
+            "App\\" : "src/App/"
+        }
+    }
+}
